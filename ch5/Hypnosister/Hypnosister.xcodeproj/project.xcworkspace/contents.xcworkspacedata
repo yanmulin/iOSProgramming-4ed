@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../Hypnosister/logo.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Hypnosister/ViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../Hypnosister/ViewController.m">
+   </FileRef>
+   <FileRef
+      location = "self:Hypnosister.xcodeproj">
+   </FileRef>
+</Workspace>

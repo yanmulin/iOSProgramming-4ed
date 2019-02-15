@@ -1,0 +1,15 @@
+
+/* Class = "UIBarButtonItem"; title = "Asset Type: None"; ObjectID = "4xI-1P-rjF"; */
+"4xI-1P-rjF.title" = "Asset Type: None";
+
+/* Class = "UILabel"; text = "Serial"; ObjectID = "5MV-t5-Ekz"; */
+"5MV-t5-Ekz.text" = "Numero de serie";
+
+/* Class = "UILabel"; text = "Value"; ObjectID = "K8X-dC-Nzt"; */
+"K8X-dC-Nzt.text" = "Valor";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gb4-PV-cX6"; */
+"gb4-PV-cX6.text" = "Label";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "mTR-ee-qPZ"; */
+"mTR-ee-qPZ.text" = "Nombre";

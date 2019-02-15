@@ -1,0 +1,15 @@
+
+/* Class = "UIBarButtonItem"; title = "Asset Type: None"; ObjectID = "4xI-1P-rjF"; */
+"4xI-1P-rjF.title" = "资产类型：无";
+
+/* Class = "UILabel"; text = "Serial"; ObjectID = "5MV-t5-Ekz"; */
+"5MV-t5-Ekz.text" = "编号";
+
+/* Class = "UILabel"; text = "Value"; ObjectID = "K8X-dC-Nzt"; */
+"K8X-dC-Nzt.text" = "价值";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gb4-PV-cX6"; */
+"gb4-PV-cX6.text" = "标签";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "mTR-ee-qPZ"; */
+"mTR-ee-qPZ.text" = "名称";

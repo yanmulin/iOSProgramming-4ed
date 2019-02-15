@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71DED9821F99C2900944C45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F71DED9721F99C2900944C45 /* AppDelegate.m */; };
+		F71DED9B21F99C2900944C45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71DED9A21F99C2900944C45 /* ViewController.m */; };
+		F71DED9E21F99C2900944C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71DED9C21F99C2900944C45 /* Main.storyboard */; };
+		F71DEDA021F99C2A00944C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71DED9F21F99C2A00944C45 /* Assets.xcassets */; };
+		F71DEDA321F99C2A00944C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71DEDA121F99C2A00944C45 /* LaunchScreen.storyboard */; };
+		F71DEDA621F99C2A00944C45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F71DEDA521F99C2A00944C45 /* main.m */; };
+		F71DEDB121F99C7A00944C45 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = F71DEDB021F99C7A00944C45 /* BNRHypnosisView.m */; };
+		F71DEDB321F9ACF600944C45 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F71DEDB221F9ACF600944C45 /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F71DED9321F99C2900944C45 /* Hypnosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71DED9621F99C2900944C45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F71DED9721F99C2900944C45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F71DED9921F99C2900944C45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F71DED9A21F99C2900944C45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F71DED9D21F99C2900944C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F71DED9F21F99C2A00944C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F71DEDA221F99C2A00944C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F71DEDA421F99C2A00944C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71DEDA521F99C2A00944C45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F71DEDAF21F99C7A00944C45 /* BNRHypnosisView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		F71DEDB021F99C7A00944C45 /* BNRHypnosisView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		F71DEDB221F9ACF600944C45 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F71DED9021F99C2900944C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F71DED8A21F99C2900944C45 = {
+			isa = PBXGroup;
+			children = (
+				F71DED9521F99C2900944C45 /* Hypnosis */,
+				F71DED9421F99C2900944C45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F71DED9421F99C2900944C45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71DED9321F99C2900944C45 /* Hypnosis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71DED9521F99C2900944C45 /* Hypnosis */ = {
+			isa = PBXGroup;
+			children = (
+				F71DEDAF21F99C7A00944C45 /* BNRHypnosisView.h */,
+				F71DEDB021F99C7A00944C45 /* BNRHypnosisView.m */,
+				F71DED9621F99C2900944C45 /* AppDelegate.h */,
+				F71DED9721F99C2900944C45 /* AppDelegate.m */,
+				F71DED9921F99C2900944C45 /* ViewController.h */,
+				F71DED9A21F99C2900944C45 /* ViewController.m */,
+				F71DED9C21F99C2900944C45 /* Main.storyboard */,
+				F71DED9F21F99C2A00944C45 /* Assets.xcassets */,
+				F71DEDB221F9ACF600944C45 /* logo.png */,
+				F71DEDA121F99C2A00944C45 /* LaunchScreen.storyboard */,
+				F71DEDA421F99C2A00944C45 /* Info.plist */,
+				F71DEDA521F99C2A00944C45 /* main.m */,
+			);
+			path = Hypnosis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F71DED9221F99C2900944C45 /* Hypnosis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71DEDA921F99C2A00944C45 /* Build configuration list for PBXNativeTarget "Hypnosis" */;
+			buildPhases = (
+				F71DED8F21F99C2900944C45 /* Sources */,
+				F71DED9021F99C2900944C45 /* Frameworks */,
+				F71DED9121F99C2900944C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hypnosis;
+			productName = Hypnosis;
+			productReference = F71DED9321F99C2900944C45 /* Hypnosis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F71DED8B21F99C2900944C45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = awen;
+				TargetAttributes = {
+					F71DED9221F99C2900944C45 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F71DED8E21F99C2900944C45 /* Build configuration list for PBXProject "Hypnosis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F71DED8A21F99C2900944C45;
+			productRefGroup = F71DED9421F99C2900944C45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F71DED9221F99C2900944C45 /* Hypnosis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F71DED9121F99C2900944C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71DEDB321F9ACF600944C45 /* logo.png in Resources */,
+				F71DEDA321F99C2A00944C45 /* LaunchScreen.storyboard in Resources */,
+				F71DEDA021F99C2A00944C45 /* Assets.xcassets in Resources */,
+				F71DED9E21F99C2900944C45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F71DED8F21F99C2900944C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71DED9B21F99C2900944C45 /* ViewController.m in Sources */,
+				F71DEDA621F99C2A00944C45 /* main.m in Sources */,
+				F71DED9821F99C2900944C45 /* AppDelegate.m in Sources */,
+				F71DEDB121F99C7A00944C45 /* BNRHypnosisView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F71DED9C21F99C2900944C45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F71DED9D21F99C2900944C45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F71DEDA121F99C2A00944C45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F71DEDA221F99C2A00944C45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F71DEDA721F99C2A00944C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F71DEDA821F99C2A00944C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F71DEDAA21F99C2A00944C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hypnosis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awen.Hypnosis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F71DEDAB21F99C2A00944C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hypnosis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = awen.Hypnosis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F71DED8E21F99C2900944C45 /* Build configuration list for PBXProject "Hypnosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71DEDA721F99C2A00944C45 /* Debug */,
+				F71DEDA821F99C2A00944C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71DEDA921F99C2A00944C45 /* Build configuration list for PBXNativeTarget "Hypnosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71DEDAA21F99C2A00944C45 /* Debug */,
+				F71DEDAB21F99C2A00944C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F71DED8B21F99C2900944C45 /* Project object */;
+}
